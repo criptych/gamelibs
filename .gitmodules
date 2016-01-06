@@ -1,0 +1,63 @@
+[submodule "Box2D"]
+    path = Box2D
+    url = https://github.com/erincatto/Box2D
+[submodule "bullet3"]
+    path = bullet3
+    url = https://github.com/bulletphysics/bullet3
+[submodule "enet"]
+    path = enet
+    url = https://github.com/lsalzman/enet
+[submodule "fann"]
+    path = fann
+    url = https://github.com/libfann/fann
+[submodule "glew"]
+    path = glew
+    url = https://github.com/nigels-com/glew
+[submodule "glm"]
+    path = glm
+    url = https://github.com/g-truc/glm
+[submodule "jansson"]
+    path = jansson
+    url = https://github.com/akheron/jansson
+[submodule "msgpack-c"]
+    path = msgpack-c
+    url = https://github.com/msgpack/msgpack-c
+[submodule "lua"]
+    path = lua
+    url = https://github.com/LuaDist/lua
+[submodule "luajit"]
+    path = luajit
+    url = https://github.com/LuaDist/luajit
+[submodule "openal-soft"]
+    path = openal-soft
+    url = https://github.com/kcat/openal-soft
+[submodule "open-steamworks"]
+    path = open-steamworks
+    url = https://github.com/SteamRE/open-steamworks
+[submodule "physfs"]
+    path = physfs
+    url = https://github.com/criptych/physfs.git
+[submodule "ruby"]
+    path = ruby
+    url = https://github.com/ruby/ruby
+[submodule "mruby"]
+    path = mruby
+    url = https://github.com/mruby/mruby
+[submodule "SDL"]
+    path = SDL
+    url = http://github.com/spurious/SDL-mirror
+[submodule "SFML"]
+    path = SFML
+    url = https://github.com/SFML/SFML
+[submodule "stb"]
+    path = stb
+    url = https://github.com/nothings/stb
+[submodule "tinyxml2"]
+    path = tinyxml2
+    url = https://github.com/leethomason/tinyxml2
+[submodule "libyaml"]
+    path = libyaml
+    url = https://github.com/yaml/libyaml
+[submodule "discount"]
+	path = discount
+	url = https://github.com/Orc/discount
