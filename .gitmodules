@@ -76,3 +76,6 @@
 [submodule "glad"]
     path = glad
     url = https://github.com/dav1dde/glad
+[submodule "Chipmunk2D"]
+	path = Chipmunk2D
+	url = https://github.com/slembcke/Chipmunk2D
