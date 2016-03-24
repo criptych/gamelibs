@@ -59,5 +59,20 @@
     path = libyaml
     url = https://github.com/yaml/libyaml
 [submodule "discount"]
-	path = discount
-	url = https://github.com/Orc/discount
+    path = discount
+    url = https://github.com/Orc/discount
+[submodule "Catch"]
+    path = Catch
+    url = https://github.com/philsquared/Catch
+[submodule "MicroPather"]
+    path = MicroPather
+    url = https://github.com/leethomason/MicroPather
+[submodule "cpython"]
+    path = cpython
+    url = https://github.com/python/cpython
+[submodule "curl"]
+    path = curl
+    url = https://github.com/curl/curl
+[submodule "glad"]
+    path = glad
+    url = https://github.com/dav1dde/glad
