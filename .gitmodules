@@ -37,9 +37,6 @@
 [submodule "physfs"]
     path = physfs
     url = https://github.com/criptych/physfs.git
-[submodule "ruby"]
-    path = ruby
-    url = https://github.com/ruby/ruby
 [submodule "mruby"]
     path = mruby
     url = https://github.com/mruby/mruby
@@ -67,9 +64,6 @@
 [submodule "MicroPather"]
     path = MicroPather
     url = https://github.com/leethomason/MicroPather
-[submodule "cpython"]
-    path = cpython
-    url = https://github.com/python/cpython
 [submodule "curl"]
     path = curl
     url = https://github.com/curl/curl
