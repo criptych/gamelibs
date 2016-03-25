@@ -90,6 +90,7 @@ Group               | Library           | Language  |    |    |    | License
                     | [PhysicsFS]       | C         |![C]|    |    | zlib
                     | [STB Nothings]    | C         |    |    |![M]| -
                     | [Steamworks]      | C++       |    |    |    | Prop.
+                    | [TTVFS]           | C++       |![C]|    |    | MIT
 **Tools**           | [CMake]           | C++       |![C]|    |    | BSD
                     | [Ninja]           | C++       |    |    |    | Apache
                     | [Premake]         | Lua       |    |![P]|![A]| BSD
@@ -143,6 +144,7 @@ Group               | Library           | Language  |    |    |    | License
 [STB Nothings]: #stb-nothings
 [Steamworks]: #steamworks
 [TinyXML2]: #tinyxml2
+[TTVFS]: #ttvfs
 [YAML]: #yaml
 
 --------------------------------------------------------------------------------
@@ -529,6 +531,14 @@ API for integration with Steam platform.
 - Website: <https://partner.steamgames.com/>
 - License: [Proprietary](https://partner.steamgames.com/documentation/sdk_access_agreement)
 - Source: None
+
+### TTVFS
+
+Virtual filesystem in C++.
+
+- Website: <https://github.com/fgenesis/ttvfs>
+- License: [MIT](https://github.com/fgenesis/ttvfs)
+- Source: [GitHub](https://github.com/fgenesis/ttvfs)
 
 --------------------------------------------------------------------------------
 

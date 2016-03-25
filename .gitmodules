@@ -100,3 +100,6 @@
 [submodule "premake"]
     path = premake
     url = https://github.com/premake/premake-core
+[submodule "ttvfs"]
+	path = ttvfs
+	url = https://github.com/fgenesis/ttvfs
