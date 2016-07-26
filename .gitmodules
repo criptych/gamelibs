@@ -103,3 +103,9 @@
 [submodule "ttvfs"]
 	path = ttvfs
 	url = https://github.com/fgenesis/ttvfs
+[submodule "lpeg"]
+	path = lpeg
+	url = https://github.com/LuaDist/lpeg
+[submodule "nuklear"]
+	path = nuklear
+	url = https://github.com/vurtun/nuklear
