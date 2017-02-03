@@ -109,3 +109,6 @@
 [submodule "nuklear"]
 	path = nuklear
 	url = https://github.com/vurtun/nuklear
+[submodule "tinyobjloader"]
+	path = tinyobjloader
+	url = https://github.com/syoyo/tinyobjloader
