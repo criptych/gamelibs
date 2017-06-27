@@ -112,3 +112,6 @@
 [submodule "tinyobjloader"]
 	path = tinyobjloader
 	url = https://github.com/syoyo/tinyobjloader
+[submodule "fmt"]
+	path = fmt
+	url = https://github.com/fmtlib/fmt/
