@@ -115,3 +115,9 @@
 [submodule "fmt"]
 	path = fmt
 	url = https://github.com/fmtlib/fmt/
+[submodule "clara"]
+	path = clara
+	url = https://github.com/philsquared/clara
+[submodule "sodium"]
+	path = sodium
+	url = https://github.com/jedisct1/libsodium
