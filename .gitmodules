@@ -124,3 +124,6 @@
 [submodule "manymouse"]
 	path = manymouse
 	url = https://github.com/NoobsArePeople2/manymouse
+[submodule "mxml"]
+	path = mxml
+	url = https://github.com/michaelrsweet/mxml
