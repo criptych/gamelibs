@@ -121,3 +121,6 @@
 [submodule "sodium"]
 	path = sodium
 	url = https://github.com/jedisct1/libsodium
+[submodule "manymouse"]
+	path = manymouse
+	url = https://github.com/NoobsArePeople2/manymouse
