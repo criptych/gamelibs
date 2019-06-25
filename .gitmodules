@@ -42,7 +42,7 @@
     url = https://github.com/mruby/mruby
 [submodule "SDL"]
     path = SDL
-    url = http://github.com/spurious/SDL-mirror
+    url = https://github.com/spurious/SDL-mirror
 [submodule "SFML"]
     path = SFML
     url = https://github.com/SFML/SFML
@@ -101,29 +101,35 @@
     path = premake
     url = https://github.com/premake/premake-core
 [submodule "ttvfs"]
-	path = ttvfs
-	url = https://github.com/fgenesis/ttvfs
+    path = ttvfs
+    url = https://github.com/fgenesis/ttvfs
 [submodule "lpeg"]
-	path = lpeg
-	url = https://github.com/LuaDist/lpeg
+    path = lpeg
+    url = https://github.com/LuaDist/lpeg
 [submodule "nuklear"]
-	path = nuklear
-	url = https://github.com/vurtun/nuklear
+    path = nuklear
+    url = https://github.com/vurtun/nuklear
 [submodule "tinyobjloader"]
-	path = tinyobjloader
-	url = https://github.com/syoyo/tinyobjloader
+    path = tinyobjloader
+    url = https://github.com/syoyo/tinyobjloader
 [submodule "fmt"]
-	path = fmt
-	url = https://github.com/fmtlib/fmt/
+    path = fmt
+    url = https://github.com/fmtlib/fmt/
 [submodule "clara"]
-	path = clara
-	url = https://github.com/philsquared/clara
+    path = clara
+    url = https://github.com/philsquared/clara
 [submodule "sodium"]
-	path = sodium
-	url = https://github.com/jedisct1/libsodium
+    path = sodium
+    url = https://github.com/jedisct1/libsodium
 [submodule "manymouse"]
-	path = manymouse
-	url = https://github.com/NoobsArePeople2/manymouse
+    path = manymouse
+    url = https://github.com/NoobsArePeople2/manymouse
 [submodule "mxml"]
-	path = mxml
-	url = https://github.com/michaelrsweet/mxml
+    path = mxml
+    url = https://github.com/michaelrsweet/mxml
+[submodule "date"]
+    path = date
+    url = https://github.com/HowardHinnant/date
+[submodule "LuaBridge"]
+	path = LuaBridge
+	url = https://github.com/vinniefalco/LuaBridge
