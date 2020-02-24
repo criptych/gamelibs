@@ -2,8 +2,9 @@
     path = Box2D
     url = https://github.com/erincatto/Box2D
 [submodule "bullet3"]
-    path = bullet3
-    url = https://github.com/bulletphysics/bullet3
+	path = bullet3
+	url = https://github.com/bulletphysics/bullet3
+	branch = master
 [submodule "enet"]
     path = enet
     url = https://github.com/lsalzman/enet
@@ -67,6 +68,7 @@
 [submodule "curl"]
     path = curl
     url = https://github.com/curl/curl
+	branch = master
 [submodule "glad"]
     path = glad
     url = https://github.com/dav1dde/glad
