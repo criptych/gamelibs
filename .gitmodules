@@ -1,137 +1,188 @@
 [submodule "Box2D"]
-    path = Box2D
-    url = https://github.com/erincatto/Box2D
+	path = Box2D
+	url = https://github.com/erincatto/box2d
+	branch = main
+[submodule "CMake"]
+	path = CMake
+	url = https://github.com/Kitware/CMake
+	branch = master
+[submodule "Catch"]
+	path = Catch
+	url = https://github.com/catchorg/Catch2
+	branch = devel
+[submodule "Chipmunk2D"]
+	path = Chipmunk2D
+	url = https://github.com/slembcke/Chipmunk2D
+	branch = master
+[submodule "LuaBridge"]
+	path = LuaBridge
+	url = https://github.com/vinniefalco/LuaBridge
+	branch = master
+[submodule "MicroPather"]
+	path = MicroPather
+	url = https://github.com/leethomason/MicroPather
+	branch = master
+[submodule "SDL"]
+	path = SDL
+	url = https://github.com/libsdl-org/SDL
+	branch = main
+[submodule "SFML"]
+	path = SFML
+	url = https://github.com/SFML/SFML
+	branch = master
 [submodule "bullet3"]
 	path = bullet3
 	url = https://github.com/bulletphysics/bullet3
 	branch = master
-[submodule "enet"]
-    path = enet
-    url = https://github.com/lsalzman/enet
-[submodule "fann"]
-    path = fann
-    url = https://github.com/libfann/fann
-[submodule "glew"]
-    path = glew
-    url = https://github.com/nigels-com/glew
-[submodule "glm"]
-    path = glm
-    url = https://github.com/g-truc/glm
-[submodule "jansson"]
-    path = jansson
-    url = https://github.com/akheron/jansson
-[submodule "msgpack-c"]
-    path = msgpack-c
-    url = https://github.com/msgpack/msgpack-c
-[submodule "lua"]
-    path = lua
-    url = https://github.com/LuaDist/lua
-[submodule "luajit"]
-    path = luajit
-    url = https://github.com/LuaDist/luajit
-[submodule "openal-soft"]
-    path = openal-soft
-    url = https://github.com/kcat/openal-soft
-[submodule "open-steamworks"]
-    path = open-steamworks
-    url = https://github.com/SteamRE/open-steamworks
-[submodule "physfs"]
-    path = physfs
-    url = https://github.com/criptych/physfs.git
-[submodule "mruby"]
-    path = mruby
-    url = https://github.com/mruby/mruby
-[submodule "SDL"]
-    path = SDL
-    url = https://github.com/spurious/SDL-mirror
-[submodule "SFML"]
-    path = SFML
-    url = https://github.com/SFML/SFML
-[submodule "stb"]
-    path = stb
-    url = https://github.com/nothings/stb
-[submodule "tinyxml2"]
-    path = tinyxml2
-    url = https://github.com/leethomason/tinyxml2
-[submodule "libyaml"]
-    path = libyaml
-    url = https://github.com/yaml/libyaml
-[submodule "discount"]
-    path = discount
-    url = https://github.com/Orc/discount
-[submodule "Catch"]
-    path = Catch
-    url = https://github.com/philsquared/Catch
-[submodule "MicroPather"]
-    path = MicroPather
-    url = https://github.com/leethomason/MicroPather
+[submodule "clara"]
+	path = clara
+	url = https://github.com/philsquared/clara
+	branch = master
 [submodule "curl"]
-    path = curl
-    url = https://github.com/curl/curl
+	path = curl
+	url = https://github.com/curl/curl
+	branch = master
+[submodule "date"]
+	path = date
+	url = https://github.com/HowardHinnant/date
+	branch = master
+[submodule "discount"]
+	path = discount
+	url = https://github.com/Orc/discount
+	branch = main
+[submodule "enet"]
+	path = enet
+	url = https://github.com/lsalzman/enet
+	branch = master
+[submodule "fann"]
+	path = fann
+	url = https://github.com/libfann/fann
+	branch = master
+[submodule "fmt"]
+	path = fmt
+	url = https://github.com/fmtlib/fmt/
 	branch = master
 [submodule "glad"]
-    path = glad
-    url = https://github.com/dav1dde/glad
-[submodule "Chipmunk2D"]
-    path = Chipmunk2D
-    url = https://github.com/slembcke/Chipmunk2D
+	path = glad
+	url = https://github.com/dav1dde/glad
+	branch = master
+[submodule "glew"]
+	path = glew
+	url = https://github.com/nigels-com/glew
+	branch = master
 [submodule "glfw"]
-    path = glfw
-    url = https://github.com/glfw/glfw
+	path = glfw
+	url = https://github.com/glfw/glfw
+	branch = master
+[submodule "glm"]
+	path = glm
+	url = https://github.com/g-truc/glm
+	branch = master
 [submodule "graphene"]
-    path = graphene
-    url = https://github.com/ebassi/graphene
-[submodule "moonscript"]
-    path = moonscript
-    url = https://github.com/leafo/moonscript
-[submodule "squirrel-lang"]
-    path = squirrel-lang
-    url = https://github.com/pfalcon/squirrel-lang
+	path = graphene
+	url = https://github.com/ebassi/graphene
+	branch = master
 [submodule "imgui"]
-    path = imgui
-    url = https://github.com/ocornut/imgui
-[submodule "CMake"]
-    path = CMake
-    url = https://github.com/Kitware/CMake
-[submodule "ninja"]
-    path = ninja
-    url = https://github.com/ninja-build/ninja
-[submodule "lyd"]
-    path = lyd
-    url = https://github.com/hodefoting/lyd
-[submodule "premake"]
-    path = premake
-    url = https://github.com/premake/premake-core
-[submodule "ttvfs"]
-    path = ttvfs
-    url = https://github.com/fgenesis/ttvfs
+	path = imgui
+	url = https://github.com/ocornut/imgui
+	branch = master
+[submodule "jansson"]
+	path = jansson
+	url = https://github.com/akheron/jansson
+	branch = master
+[submodule "libyaml"]
+	path = libyaml
+	url = https://github.com/yaml/libyaml
+	branch = master
 [submodule "lpeg"]
-    path = lpeg
-    url = https://github.com/LuaDist/lpeg
-[submodule "nuklear"]
-    path = nuklear
-    url = https://github.com/vurtun/nuklear
-[submodule "tinyobjloader"]
-    path = tinyobjloader
-    url = https://github.com/syoyo/tinyobjloader
-[submodule "fmt"]
-    path = fmt
-    url = https://github.com/fmtlib/fmt/
-[submodule "clara"]
-    path = clara
-    url = https://github.com/philsquared/clara
-[submodule "sodium"]
-    path = sodium
-    url = https://github.com/jedisct1/libsodium
+	path = lpeg
+	url = https://github.com/LuaDist/lpeg
+	branch = master
+[submodule "lua"]
+	path = lua
+	url = https://github.com/lua/lua
+	branch = v5.4
+[submodule "luajit"]
+	path = luajit
+	url = https://github.com/luajit/luajit
+	branch = v2.1
+[submodule "lyd"]
+	path = lyd
+	url = https://github.com/hodefoting/lyd
+	branch = master
 [submodule "manymouse"]
-    path = manymouse
-    url = https://github.com/NoobsArePeople2/manymouse
+	path = manymouse
+	url = https://github.com/NoobsArePeople2/manymouse
+	branch = master
+[submodule "moonscript"]
+	path = moonscript
+	url = https://github.com/leafo/moonscript
+	branch = master
+[submodule "mruby"]
+	path = mruby
+	url = https://github.com/mruby/mruby
+	branch = master
+[submodule "msgpack-c"]
+	path = msgpack-c
+	url = https://github.com/msgpack/msgpack-c
+	branch = c_master
 [submodule "mxml"]
-    path = mxml
-    url = https://github.com/michaelrsweet/mxml
-[submodule "date"]
-    path = date
-    url = https://github.com/HowardHinnant/date
-[submodule "LuaBridge"]
-	path = LuaBridge
-	url = https://github.com/vinniefalco/LuaBridge
+	path = mxml
+	url = https://github.com/michaelrsweet/mxml
+	branch = master
+[submodule "ninja"]
+	path = ninja
+	url = https://github.com/ninja-build/ninja
+	branch = master
+[submodule "nuklear"]
+	path = nuklear
+	url = https://github.com/vurtun/nuklear
+	branch = master
+[submodule "open-steamworks"]
+	path = open-steamworks
+	url = https://github.com/SteamRE/open-steamworks
+	branch = master
+[submodule "openal-soft"]
+	path = openal-soft
+	url = https://github.com/kcat/openal-soft
+	branch = master
+[submodule "physfs"]
+	path = physfs
+	url = https://github.com/icculus/physfs.git
+	branch = main
+[submodule "premake"]
+	path = premake
+	url = https://github.com/premake/premake-core
+	branch = master
+[submodule "sodium"]
+	path = sodium
+	url = https://github.com/jedisct1/libsodium
+	branch = master
+[submodule "sol2"]
+	path = sol2
+	url = https://github.com/ThePhD/sol2
+	branch = develop
+[submodule "squirrel-lang"]
+	path = squirrel-lang
+	url = https://github.com/pfalcon/squirrel-lang
+	branch = master
+[submodule "stb"]
+	path = stb
+	url = https://github.com/nothings/stb
+	branch = master
+[submodule "tinyobjloader"]
+	path = tinyobjloader
+	url = https://github.com/syoyo/tinyobjloader
+	branch = release
+[submodule "tinyxml2"]
+	path = tinyxml2
+	url = https://github.com/leethomason/tinyxml2
+	branch = master
+[submodule "ttvfs"]
+	path = ttvfs
+	url = https://github.com/fgenesis/ttvfs
+	branch = master
+[submodule "yaml-cpp"]
+	path = yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp
+	branch = master
