@@ -50,51 +50,51 @@ not to use pull requests for this.)
 
 ## Summary
 
-Group               | Library           | Language  |    |    |    | License
-:-------------------|:------------------|:----------|:--:|:--:|:--:|:----------
-**Base Libraries**  | [SDL2]            | C         |![C]|![P]|    | zlib
-                    | [SFML]            | C++       |![C]|    |    | zlib
-                    | [GLFW]            | C         |![C]|    |    | zlib
-**Graphics**        | [OpenGL]          | C         |    |    |    | API only
-                    | [GLAD]            | C/C++     |![C]|    |    | MIT
-                    | [GLEW]            | C         |![C]|    |    | BSD
-                    | [GLLoadGen]       | C/C++     |    |![P]|    | MIT
-**Audio**           | [FMOD Studio]     | C++       |    |    |    | Prop.
-                    | [OpenAL]          | C         |    |    |    | API only
-                    | [OpenAL-Soft]     | C         |![C]|    |    | LGPL
-                    | [Lyd]             | C         |    |    |![A]| ISC
-**Physics**         | [Box2D]           | C++       |![C]|![P]|    | zlib
-                    | [Bullet]          | C++       |![C]|![P]|    | zlib
-                    | [Chipmunk2D]      | C         |![C]|    |    | MIT
-**Math**            | [GLM]             | C++       |![C]|    |    | MIT
-                    | [Graphene]        | C         |    |    |![A]| MIT
-**Serialization**   | [Jansson]         | C         |![C]|    |    | MIT
-                    | [MessagePack]     | C         |![C]|    |    | Boost
-                    | [TinyXML2]        | C++       |![C]|    |    | zlib
-                    | [YAML]            | C         |![C]|    |    | MIT
-**Scripting**       | [Lua]             | C         |![C]|    |    | MIT
-                    | [LuaJIT]          | C         |![C]|    |    | MIT
-                    | [MoonScript]      | Lua       |    |    |![A]| MIT
-                    | [Python]          | C         |    |    |![A]| PSF
-                    | [Ruby]            | C         |    |    |![A]| BSD
-                    | [mruby]           | C         |    |    |![R]| MIT
-                    | [Squirrel]        | C++       |    |    |![A]| MIT
-**Networking**      | [cURL]            | C         |![C]|    |    | MIT
-                    | [ENet]            | C         |![C]|![P]|    | MIT
-**AI**              | [FANN]            | C         |![C]|    |    | LGPL
-                    | [MicroPather]     | C++       |    |    |![A]| zlib
-**Miscellaneous**   | [Catch]           | C++       |    |    |    | Boost
-                    | [Discount]        | C         |    |    |![A]| BSD
-                    | [ImGui]           | C++       |    |    |    | MIT
-                    | [Open Steamworks] | C++       |    |    |![M]| Other
-                    | [PhysicsFS]       | C         |![C]|    |    | zlib
-                    | [STB Nothings]    | C         |    |    |![M]| -
-                    | [Steamworks]      | C++       |    |    |    | Prop.
-                    | [TTVFS]           | C++       |![C]|    |    | MIT
-**Tools**           | [CMake]           | C++       |![C]|    |    | BSD
-                    | [Ninja]           | C++       |    |    |    | Apache
-                    | [Premake]         | Lua       |    |![P]|![A]| BSD
-                    | [SCons]           | Python    |    |    |![S]| MIT
+| Group              | Library           | Language  |    |    |    | License  |
+|:-------------------|:------------------|:----------|:--:|:--:|:--:|:---------|
+| **Base Libraries** | [SDL2]            | C         |![C]|![P]|    | zlib     |
+|                    | [SFML]            | C++       |![C]|    |    | zlib     |
+|                    | [GLFW]            | C         |![C]|    |    | zlib     |
+| **Graphics**       | [OpenGL]          | C         |    |    |    | API only |
+|                    | [GLAD]            | C/C++     |![C]|    |    | MIT      |
+|                    | [GLEW]            | C         |![C]|    |    | BSD      |
+|                    | [GLLoadGen]       | C/C++     |    |![P]|    | MIT      |
+| **Audio**          | [FMOD Studio]     | C++       |    |    |    | Prop.    |
+|                    | [OpenAL]          | C         |    |    |    | API only |
+|                    | [OpenAL-Soft]     | C         |![C]|    |    | LGPL     |
+|                    | [Lyd]             | C         |    |    |![A]| ISC      |
+| **Physics**        | [Box2D]           | C++       |![C]|![P]|    | zlib     |
+|                    | [Bullet]          | C++       |![C]|![P]|    | zlib     |
+|                    | [Chipmunk2D]      | C         |![C]|    |    | MIT      |
+| **Math**           | [GLM]             | C++       |![C]|    |    | MIT      |
+|                    | [Graphene]        | C         |    |    |![A]| MIT      |
+| **Serialization**  | [Jansson]         | C         |![C]|    |    | MIT      |
+|                    | [MessagePack]     | C         |![C]|    |    | Boost    |
+|                    | [TinyXML2]        | C++       |![C]|    |    | zlib     |
+|                    | [YAML]            | C         |![C]|    |    | MIT      |
+| **Scripting**      | [Lua]             | C         |![C]|    |    | MIT      |
+|                    | [LuaJIT]          | C         |![C]|    |    | MIT      |
+|                    | [MoonScript]      | Lua       |    |    |![A]| MIT      |
+|                    | [Python]          | C         |    |    |![A]| PSF      |
+|                    | [Ruby]            | C         |    |    |![A]| BSD      |
+|                    | [mruby]           | C         |    |    |![R]| MIT      |
+|                    | [Squirrel]        | C++       |    |    |![A]| MIT      |
+| **Networking**     | [cURL]            | C         |![C]|    |    | MIT      |
+|                    | [ENet]            | C         |![C]|![P]|    | MIT      |
+| **AI**             | [FANN]            | C         |![C]|    |    | LGPL     |
+|                    | [MicroPather]     | C++       |    |    |![A]| zlib     |
+| **Miscellaneous**  | [Catch]           | C++       |    |    |    | Boost    |
+|                    | [Discount]        | C         |    |    |![A]| BSD      |
+|                    | [ImGui]           | C++       |    |    |    | MIT      |
+|                    | [Open Steamworks] | C++       |    |    |![M]| Other    |
+|                    | [PhysicsFS]       | C         |![C]|    |    | zlib     |
+|                    | [STB Nothings]    | C         |    |    |![M]| -        |
+|                    | [Steamworks]      | C++       |    |    |    | Prop.    |
+|                    | [TTVFS]           | C++       |![C]|    |    | MIT      |
+| **Tools**          | [CMake]           | C++       |![C]|    |    | BSD      |
+|                    | [Ninja]           | C++       |    |    |    | Apache   |
+|                    | [Premake]         | Lua       |    |![P]|![A]| BSD      |
+|                    | [SCons]           | Python    |    |    |![S]| MIT      |
 
 [A]: <.image/make.png> "Build with Autoconf/Automake/Make"
 [C]: <.image/cmake.png> "Build with CMake"
